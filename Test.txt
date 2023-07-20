@@ -1,0 +1,26 @@
+public class StringFunctionsExample {
+    public static void main(String[] args) {
+        String str1 = "Hello";
+        String str2 = "World";
+
+        // Concatenation using +
+        String concatString = str1 + str2;
+        System.out.println("Concatenated String: " + concatString);
+
+        // Convert to uppercase
+        String uppercaseString = str1.toUpperCase();
+        System.out.println("Uppercase String: " + uppercaseString);
+
+        // Convert to lowercase
+        String lowercaseString = str2.toLowerCase();
+        System.out.println("Lowercase String: " + lowercaseString);
+
+        // Check equality
+        boolean isEqual = str1.equals(str2);
+        System.out.println("Are the strings equal? " + isEqual);
+
+        // Get length
+        int length = str1.length();
+        System.out.println("Length of the string: " + length);
+    }
+}
